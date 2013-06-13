@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Say voice="woman">Thanks for choose PeterPizzas online. Record your order. Press the star key when finished. </Say>
+	<Record maxLength="900" finishOnKey="*" />
+	<Redirect>http://localhost/twilioTest/index.php</Redirect>
+</Response>
